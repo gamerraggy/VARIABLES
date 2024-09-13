@@ -1,0 +1,36 @@
+#include<iostream>
+using namespace std;
+int main() {
+
+
+	int age;
+	bool game = true;
+	char letter;
+	float money;
+	string name;
+
+
+	cout << "enter your real age:" << endl;
+	cin >> age;
+	cout << "ok, so you are actually" << age << endl;
+
+	cout << "are you ready to start game? ( 0 = no, 1 = yes" << endl;
+	cin >> game;
+	if (game == 1)
+		cout << "starting..." << endl;
+	if (game == 0)
+		cout << "Ok" << endl;
+
+	cout << "what is your favorite capital letter?" << endl;
+	cin >> letter;
+	cout << "wow," << letter << "is a good letter" << endl;
+
+	cout << "how much money do you have?" << endl;
+	cin >> money;
+	cout << "you actually have" << money << "?" << endl;
+
+	cout << "what is your name?" << endl;
+	cin >> name;
+	cout << "wow" << name << "is a good name!" << endl;
+
+}
